@@ -1,0 +1,12 @@
+1000001,Bimbo
+1000002,Colombina
+1000003,Nestle
+1000004,Alqueria
+1000005,Ramo
+1000006,Zenú
+1000007,Poker
+1000008,Coca-Cola
+1000009,Postobón
+1000010,Nutresa
+1000011,Fritolay
+10002345,U Sabana

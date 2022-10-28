@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="750.0" style="-fx-background-color: #789dca;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.MenuPrincipalController">
+   <children>
+      <Pane layoutX="739.0" prefHeight="400.0" prefWidth="26.0" style="-fx-background-color: #2c8b56;" />
+      <Pane layoutX="14.0" prefHeight="400.0" prefWidth="26.0" style="-fx-background-color: #2c8b56;" />
+      <Pane layoutX="600.0" layoutY="191.0" prefHeight="149.0" prefWidth="113.0" style="-fx-background-color: #c7d6e9;">
+         <children>
+            <ImageView fitHeight="77.0" fitWidth="95.0" layoutX="15.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../logos/venta.png" />
+               </image>
+            </ImageView>
+         </children></Pane>
+      <Pane layoutX="76.0" layoutY="191.0" prefHeight="149.0" prefWidth="113.0" style="-fx-background-color: #c7d6e9;">
+         <children>
+            <ImageView fitHeight="77.0" fitWidth="95.0" layoutX="14.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../logos/client.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="btn_clientes" layoutX="6.0" layoutY="14.0" mnemonicParsing="false" onAction="#GoClientes" prefHeight="34.0" prefWidth="101.0" text="Clientes">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+         </children></Pane>
+      <Pane layoutX="471.0" layoutY="191.0" prefHeight="149.0" prefWidth="113.0" style="-fx-background-color: #c7d6e9;">
+         <children>
+            <Button fx:id="btn_compras" layoutX="6.0" layoutY="14.0" mnemonicParsing="false" onAction="#GoCompras" prefHeight="34.0" prefWidth="101.0" text="Compras">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="77.0" fitWidth="79.0" layoutX="16.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../logos/shop.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="340.0" layoutY="191.0" prefHeight="149.0" prefWidth="113.0" style="-fx-background-color: #c7d6e9;">
+         <children>
+            <Button fx:id="btn_productos" layoutX="6.0" layoutY="14.0" mnemonicParsing="false" onAction="#GoProductos" prefHeight="34.0" prefWidth="101.0" text="Productos">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="77.0" fitWidth="82.0" layoutX="18.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../logos/productos.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="208.0" layoutY="191.0" prefHeight="149.0" prefWidth="113.0" style="-fx-background-color: #c7d6e9;">
+         <children>
+            <Button fx:id="btn_proveedores" layoutX="5.0" layoutY="14.0" mnemonicParsing="false" onAction="#GoProveedores" prefHeight="34.0" prefWidth="101.0" text="Proveedores">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="75.0" fitWidth="91.0" layoutX="12.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../logos/Provedores.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Button fx:id="btn_ventas" layoutX="606.0" layoutY="205.0" mnemonicParsing="false" onAction="#GoVentas" prefHeight="34.0" prefWidth="101.0" text="Ventas">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_salir" layoutX="660.0" layoutY="14.0" mnemonicParsing="false" onAction="#DoSalir" prefHeight="19.0" prefWidth="63.0" text="Salir" textFill="#2e744c">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="69.0" fitWidth="802.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../logos/Logop.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

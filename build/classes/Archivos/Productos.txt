@@ -1,0 +1,19 @@
+PR10002,Pan hamburguesa Bimbo,2850.0,3562.5,33,pan-hamburguesa-bimbo-x-210-g-4-unds.jpg
+PR10003,Lonchera Bimbo,5300.0,6625.0,87,lonchera-bimbo-x-7-undsades-x-234-g.jpg
+PR10004,Pan tajado Bimbo,4500.0,5625.0,99,pan-tajado-bimbo-x-600-g.jpg
+PR10005,Millows Colombina,5000.0,6250.0,67,masmelos.jpg
+PR10006,Jamón Zenú,5500.0,6875.0,79,jamon-sanduche-zenu-x450gr (2).jpg
+PR10007,Menticas,5600.0,7000.0,80,defecto.png
+PR10008,Acqua Frutos Verdes,3490.0,4362.5,0,Acqua Frutos verdes Postobón.jpg
+PR10009,Chocapic,11790.0,14737.5,0,choca pic.jpg
+PR100010,Chocorramo mini,8712.0,10890.0,0,chocorramo mini.jpg
+PR100011,Capsulas de cafe,37500.0,46875.0,0,capsulas express.png
+PR1000012,Arequipe Alqueria,18270.0,22837.5,0,arequipe.jpg
+PR100012,Postobon uva,3290.0,4112.5,0,Gaseosa uva PostoBon.jpg
+PR100013,Leche deslactosada Alqueria,4197.0,5246.25,0,leche deslactosada.png
+PR100014,Poker Malta,2290.0,2862.5,0,poker malta.jpg
+PR1000015,Tostacos Pack ,8163.0,10203.75,0,tostacos.jpg
+PR100016,Yogurt de lulo,1728.0,2160.0,0,yogurt de lulo.jpg
+PR100017,Poker roja lata,2290.0,2862.5,0,poker roja.jpg
+PR100018,Crema de leche,5391.0,6738.75,0,crema de leche.jpg
+PR10,nucitas,3000.0,3750.0,0,Nucita.jpg

@@ -1,0 +1,8 @@
+1000463013,Julian Pulido,Persona
+1000301456,Juan Bello,Persona
+1000347890,Mariana Lizcano,Persona
+1000208017,Juan David Leal,Persona
+1000703452,Efrain Vega,Persona
+2080045,Jumbo,Empresa
+20973068,Olimpica,Empresa
+21746965,Carulla,Empresa100023,julian,Persona
