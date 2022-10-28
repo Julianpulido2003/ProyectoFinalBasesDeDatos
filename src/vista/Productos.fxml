@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="369.0" prefWidth="700.0" style="-fx-background-color: #170329;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.ProductosController">
+   <children>
+      <Pane layoutX="15.0" layoutY="44.0" prefHeight="306.0" prefWidth="670.0" style="-fx-background-color: #eab676;">
+         <children>
+            <Pane layoutX="414.0" layoutY="32.0" prefHeight="162.0" prefWidth="180.0" style="-fx-background-color: FFFF;">
+               <children>
+                  <Button fx:id="btn_Foto" layoutX="-1.0" mnemonicParsing="false" onAction="#doBuscarFoto" prefHeight="31.0" prefWidth="182.0" text="Foto" />
+                  <ImageView fx:id="imgFoto" fitHeight="123.0" fitWidth="140.0" layoutX="30.0" layoutY="34.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </Pane>
+            <Label layoutX="38.0" layoutY="37.0" prefHeight="17.0" prefWidth="67.0" text="Código">
+               <font>
+                  <Font name="Bookman Old Style" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="38.0" layoutY="82.0" prefHeight="24.0" prefWidth="83.0" text="Nombre" textFill="#040000">
+               <font>
+                  <Font name="Bookman Old Style" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="38.0" layoutY="126.0" prefHeight="24.0" prefWidth="149.0" text="Precio Compra $" textFill="#020000">
+               <font>
+                  <Font name="Bookman Old Style" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txt_codigo" layoutX="126.0" layoutY="37.0" prefHeight="25.0" prefWidth="182.0" style="-fx-background-color: ffff;" />
+            <TextField fx:id="txt_nombre" layoutX="126.0" layoutY="82.0" prefHeight="25.0" prefWidth="182.0" style="-fx-background-color: ffff;" />
+            <TextField fx:id="txt_precioCompra" layoutX="197.0" layoutY="125.0" prefHeight="25.0" prefWidth="111.0" style="-fx-background-color: ffff;" />
+            <Button fx:id="btn_Nuevo" layoutX="35.0" layoutY="180.0" mnemonicParsing="false" onAction="#NuevoProducto" prefHeight="31.0" prefWidth="67.0" text="Nuevo" />
+            <Button fx:id="btn_eliminar" layoutX="242.0" layoutY="180.0" mnemonicParsing="false" onAction="#doEliminar" prefHeight="31.0" prefWidth="67.0" text="Eliminar" />
+            <Button fx:id="btn_Modificar" layoutX="173.0" layoutY="180.0" mnemonicParsing="false" onAction="#Modificar" prefHeight="31.0" prefWidth="67.0" text="Modificar" />
+            <Button fx:id="btn_Inventario" layoutX="171.0" layoutY="238.0" mnemonicParsing="false" onAction="#GoInventario" prefHeight="31.0" prefWidth="140.0" text="Inventario" />
+            <Button fx:id="btn_Guardar" layoutX="104.0" layoutY="180.0" mnemonicParsing="false" onAction="#doGuardar" prefHeight="31.0" prefWidth="67.0" text="Guardar" />
+            <Button fx:id="btn_Buscar" layoutX="35.0" layoutY="238.0" mnemonicParsing="false" onAction="#Buscar" prefHeight="31.0" prefWidth="131.0" text="Buscar" />
+            <Button fx:id="btn_Siguiente" layoutX="436.0" layoutY="211.0" mnemonicParsing="false" onAction="#goNext" prefHeight="31.0" prefWidth="67.0" text="Siguiente" />
+            <Button fx:id="btn_Anterior" layoutX="505.0" layoutY="211.0" mnemonicParsing="false" onAction="#goPrevious" prefHeight="31.0" prefWidth="67.0" text="Anterior" />
+         </children>
+      </Pane>
+      <Button fx:id="btn_Salir" layoutX="619.0" layoutY="8.0" mnemonicParsing="false" onAction="#GoMenu" text="Salir">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Label layoutX="294.0" layoutY="9.0" prefHeight="24.0" prefWidth="111.0" text="Productos" textFill="#b6d3f8">
+         <font>
+            <Font name="Bookman Old Style" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
